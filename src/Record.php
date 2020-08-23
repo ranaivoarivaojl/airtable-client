@@ -156,9 +156,9 @@ class Record {
     }
 
     /**
-     * @return DateTime
+     * @return int
      */
-    public function getTimestamp(): DateTime {
+    public function getTimestamp() {
         return $this->timestamp;
     }
 }
